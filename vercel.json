@@ -10,6 +10,14 @@
     {
       "src": "/(.*)",
       "dest": "server.js"  
+    },
+    {
+      "src": "/uploader/(.*)",
+      "dest": "server.js"  
+    },
+    {
+      "src": "/uploader/file",
+      "dest": "server.js"  
     }
   ]
 }
